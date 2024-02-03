@@ -1,6 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import { quiz } from '../data.js';
+import { CourseCard } from '../courseCard.js';
 
 const page = () => {
     //increment quiz question
@@ -41,8 +42,8 @@ const page = () => {
         if (activeQuestion !== questions.length - 1) {
         setActiveQuestion((prev) => prev + 1);
         } else {
-        setActiveQuestion(0);
-        setShowResult(true);
+          setActiveQuestion(0);
+          setShowResult(true);
         }
         setChecked(false);
     };
@@ -50,7 +51,7 @@ const page = () => {
     return (
         <div className='container-container'>
             <div className='container'>
-            <h1>Quiz Page</h1>
+            <img src='/tembulogo.png' alt='Tembusu Logo' height='110vh'/>
             <div>
                 {!showResult ? <h2>
                 Question: {activeQuestion + 1}
@@ -84,17 +85,14 @@ const page = () => {
                     )}
                 </div>
                 ) : (
-                <div className='quiz-container'>
+                <div className='result-container'>
                     <h3>Results</h3>
-                    {Object.entries(result).map(([course, count]) => (
-                        <div key={course}>
-                            <div>{course}</div>
-                            <div>{count}</div>
-                        </div>
+                    {Object.keys(result).map(item => (
+                      <CourseCard courseID={item} />
                     ))}
                 </div>
                 )}
-            </div>
+              </div>
             </div>
         </div>
     );

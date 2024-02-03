@@ -10,7 +10,6 @@ export default function Home() {
         <Link href='/quiz'>
           <button>Start Quiz</button>
         </Link>
-        <CourseCard courseID='UTC2101' />
       </div>
     </main>
   );
