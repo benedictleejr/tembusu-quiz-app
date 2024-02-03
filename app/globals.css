@@ -6,15 +6,17 @@
 
 html, body {
   overflow-x: hidden;
-  background-color: #000925;
+  background-color: #44704F;
 }
 
 main {
-  padding: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 h1, h2 {
   color: #eee;
+  margin-top: 1.5rem;
 }
 
 h3 {
@@ -25,15 +27,21 @@ h3 {
 
 button {
   padding: 16px 8px;
-  width: 100%;
+  width: 25%;
   margin-top: 12px;
   font-size: 1rem;
   border-radius: 4px;
   cursor: pointer;
-  background-color: #808080;
+  background-color: #53934C;
+  border: none;
   color: #f8f8f8;
+  transition: 0.8s ease;
 }
 
+button:hover {
+    background-color: #5AAF51;
+    width: 30%;
+}
 .btn-disabled {
   background-color: lightgray;
 }
@@ -60,8 +68,10 @@ li {
 .container {
   max-width: 740px;
   width: 100%;
-  margin: auto;
   padding: 1rem;
+  background-color: #384537;
+  min-height: 100vh;
+  text-align: center;
 }
 
 .quiz-container {
