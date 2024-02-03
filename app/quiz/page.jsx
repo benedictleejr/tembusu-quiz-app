@@ -3,14 +3,6 @@ import React, { useState } from 'react';
 import { quiz } from '../data.js';
 
 const page = () => {
-<<<<<<< HEAD
-  const [activeQuestion, setActiveQuestion] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState('');
-  const [checked, setChecked] = useState(false);
-  const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(null);
-  const [showResult, setShowResult] = useState(false);
-  const [result, setResult] = useState([]);
-=======
     //increment quiz question
     const [activeQuestion, setActiveQuestion] = useState(0);
     //true if answer is selected
@@ -23,7 +15,6 @@ const page = () => {
     const [showResult, setShowResult] = useState(false);
     //output for result page
     const [result, setResult] = useState({});
->>>>>>> 8d7c3825fc167b1d697b7de92d0cb71953f64b47
 
     const { questions } = quiz;
     const { question, answers, mappedAnswer } = questions[activeQuestion];
