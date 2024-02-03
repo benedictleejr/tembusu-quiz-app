@@ -8,11 +8,7 @@ const page = () => {
   const [checked, setChecked] = useState(false);
   const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(null);
   const [showResult, setShowResult] = useState(false);
-  const [result, setResult] = useState({
-    score: 0,
-    correctAnswers: 0,
-    wrongAnswers: 0,
-  });
+  const [result, setResult] = useState([]);
 
   const { questions } = quiz;
   const { question, answers, correctAnswer } = questions[activeQuestion];

@@ -1,0 +1,14 @@
+.course-card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.course-title {
+    font-size: 30px;
+}
+
+.course-info {
+    font-size: 20px;
+    color: gray
+}

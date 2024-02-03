@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { CourseCard } from './courseCard';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <Link href='/quiz'>
           <button>Start Quiz</button>
         </Link>
+        <CourseCard courseID='UTC2101' />
       </div>
     </main>
   );
