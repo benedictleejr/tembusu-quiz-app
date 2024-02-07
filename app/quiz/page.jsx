@@ -51,48 +51,48 @@ const page = () => {
     return (
         <div className='container-container'>
             <div className='container'>
-            <img src='/tembulogo.png' alt='Tembusu Logo' height='110vh'/>
-            <div>
-                {!showResult ? <h2>
-                Question: {activeQuestion + 1}
-                <span>/{questions.length}</span>
-                </h2> : null}
-            </div>
-            <div>
-                {!showResult ? (
-                <div className='quiz-container'>
-                    <h3>{questions[activeQuestion].question}</h3>
-                    {answers.map((answer, idx) => (
-                    <li
-                        key={idx}
-                        onClick={() => onAnswerSelected(answer, idx)}
-                        className={
-                        selectedAnswerIndex === idx ? 'li-selected' : 'li-hover'
-                        }
-                    >
-                        <span>{answer}</span>
-                    </li>
-                    ))}
-                    {checked ? (
-                    <button onClick={nextQuestion} className='btn'>
-                        {activeQuestion === question.length - 1 ? 'Finish' : 'Next'}
-                    </button>
+                <img src='/tembulogo.png' alt='Tembusu Logo' height='110vh'/>
+                <div>
+                    {!showResult ? <h2>
+                    Question: {activeQuestion + 1}
+                    <span>/{questions.length}</span>
+                    </h2> : null}
+                </div>
+                <div>
+                    {!showResult ? (
+                    <div className='quiz-container'>
+                        <h3>{questions[activeQuestion].question}</h3>
+                        {answers.map((answer, idx) => (
+                        <li
+                            key={idx}
+                            onClick={() => onAnswerSelected(answer, idx)}
+                            className={
+                            selectedAnswerIndex === idx ? 'li-selected' : 'li-hover'
+                            }
+                        >
+                            <span>{answer}</span>
+                        </li>
+                        ))}
+                        {checked ? (
+                        <button onClick={nextQuestion} className='btn'>
+                            {activeQuestion === question.length - 1 ? 'Finish' : 'Next'}
+                        </button>
+                        ) : (
+                        <button onClick={nextQuestion} disabled className='btn-disabled'>
+                            {' '}
+                            {activeQuestion === question.length - 1 ? 'Finish' : 'Next'}
+                        </button>
+                        )}
+                    </div>
                     ) : (
-                    <button onClick={nextQuestion} disabled className='btn-disabled'>
-                        {' '}
-                        {activeQuestion === question.length - 1 ? 'Finish' : 'Next'}
-                    </button>
+                    <div className='result-container'>
+                        <h3 id="results-header">Results</h3>
+                        {Object.keys(result).map(item => (
+                        <CourseCard courseID={item} />
+                        ))}
+                    </div>
                     )}
                 </div>
-                ) : (
-                <div className='result-container'>
-                    <h3>Results</h3>
-                    {Object.keys(result).map(item => (
-                      <CourseCard courseID={item} />
-                    ))}
-                </div>
-                )}
-              </div>
             </div>
         </div>
     );

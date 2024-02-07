@@ -72,7 +72,7 @@ li {
 .container {
   max-width: 740px;
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 2rem 3rem;
   background-color: #384537;
   min-height: 100vh;
   text-align: center;
@@ -94,4 +94,14 @@ li {
 
 .container p {
   padding: 8px 0;
+}
+
+#results-header {
+    color: #eee;
+    padding-bottom: 0;
+}
+
+.image-container {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }

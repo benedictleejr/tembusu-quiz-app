@@ -2,13 +2,19 @@
     background-color: white;
     border-radius: 16px;
     padding: 20px;
+    margin: 20px;
 }
 
 .course-title {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .course-info {
-    font-size: 20px;
-    color: gray
+    font-size: 16px;
+    color: #101010;
+}
+
+.course-type {
+    font-size: 16px;
+    color: gray;
 }
