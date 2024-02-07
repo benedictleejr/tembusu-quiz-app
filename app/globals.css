@@ -76,6 +76,7 @@ li {
   background-color: #384537;
   min-height: 100vh;
   text-align: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .quiz-container {
