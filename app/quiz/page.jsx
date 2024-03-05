@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { quiz } from '../quizData.js';
 import { CourseCard } from '../courseCard.js';
+import Link from 'next/link';
 
 const page = () => {
     //increment quiz question
@@ -101,6 +102,9 @@ const page = () => {
                             .map((item) => (
                         <CourseCard courseID={item[0]} />
                         ))}
+                        <Link href='/'>
+                            <button>Restart</button>
+                        </Link>
                     </div>
                     )}
                 </div>
