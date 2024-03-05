@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { quiz } from '../data.js';
+import { quiz } from '../quizData.js';
 import { CourseCard } from '../courseCard.js';
 
 const page = () => {
@@ -19,7 +19,7 @@ const page = () => {
 
     const { questions } = quiz;
     const { question, answers, mappedAnswer } = questions[activeQuestion];
-
+    
     //   Select answer
     const onAnswerSelected = (answer, idx) => {
         setChecked(true);
@@ -50,6 +50,13 @@ const page = () => {
 
     return (
         <div className='container-container'>
+            <img src="/000.png" className="first"></img>
+            <img src="/001.png" className="second"></img>
+            <img src="/002.png" className="third"></img>
+            <img src="/003.png" className="fourth"></img>
+            <img src="/004.png" className="fifth"></img>
+            <img src="/005.png" className="sixth"></img>
+
             <div className='container'>
                 <img src='/tembulogo.png' alt='Tembusu Logo' height='110vh'/>
                 <div>
@@ -87,8 +94,12 @@ const page = () => {
                     ) : (
                     <div className='result-container'>
                         <h3 id="results-header">Results</h3>
-                        {Object.keys(result).map(item => (
-                        <CourseCard courseID={item} />
+                        {Object.keys(result)
+                            .map(k => ([k, result[k]]))
+                            .sort((a, b) => b[1] - a[1])
+                            .slice(0, 5)
+                            .map((item) => (
+                        <CourseCard courseID={item[0]} />
                         ))}
                     </div>
                     )}

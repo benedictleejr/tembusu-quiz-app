@@ -77,6 +77,7 @@ li {
   min-height: 100vh;
   text-align: center;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  z-index: 999;
 }
 
 .quiz-container {
@@ -105,4 +106,41 @@ li {
 .image-container {
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.first, .second, .third, .fourth, .fifth, .sixth {
+    position: absolute;
+    width: 25vh;
+    z-index: 0;
+}
+
+.first {
+    top: 2vh; 
+    left: 30px; 
+}
+
+.second {
+    bottom: 2vh;
+    right: 25px;
+}
+
+.third {
+    top: 0vh;
+    right: 25px;
+}
+
+.fourth {
+    bottom: 35vh;
+    left: 120px;
+    width: 28vh;
+}
+
+.fifth {
+    bottom: 40vh;
+    right: 150px;
+}
+
+.sixth {
+    bottom: 2vh;
+    left: 25px;
 }
