@@ -16,7 +16,7 @@ export const courseData = {
     },
     'UTS2103/UTC2103': {
         name: 'Biomedicine and Singapore Society',
-        prof: 'Mr Shamraz Anver',
+        prof: 'Dr Serena Seah',
         type: 'Senior Seminar',
     },
     'UTC2102': {
@@ -26,7 +26,7 @@ export const courseData = {
     },
     'UTC2113': {
         name: 'Gaming Life',
-        prof: 'Associate Professor John Phillips, Ms Cera Tan',
+        prof: 'Ms Cera Tan',
         type: 'Senior Seminar',
     },
     'UTS2110/UTC2110': {
@@ -59,6 +59,11 @@ export const courseData = {
         prof: 'Dr Margaret Tan',
         type: 'Senior Seminar',
     },
+    'UTC2117': {
+        name: 'Skin',
+        prof: 'Dr Celine Coderey',
+        type: 'Senior Seminar',
+    },
     'UTS2114/UTC2114': {
         name: 'Technologies and Ageing in Singapore',
         prof: 'Dr Kuan Yee Han',
@@ -81,7 +86,7 @@ export const courseData = {
     },
     'UTC1115': {
         name: 'Engineering Marvels',
-        prof: 'Mr Ernest Tan',
+        prof: 'Dr Ernest Tan',
         type: 'Junior Seminar',
     },
     'UTC1102B': {
@@ -99,13 +104,8 @@ export const courseData = {
         prof: 'Dr Eric Kerr',
         type: 'Junior Seminar',
     },
-    'UTC1102R': {
-        name: 'Green Capitalism: A Critical Engagement',
-        prof: '',
-        type: 'Junior Seminar',
-    },
     'UTC1113': {
-        name: 'Ignorance and Knowing',
+        name: 'Ignorance and Uncertainty',
         prof: 'Dr John Wee',
         type: 'Junior Seminar',
     },
@@ -131,7 +131,7 @@ export const courseData = {
     },
     'UTC1102E': {
         name: 'Social Innovation',
-        prof: '',
+        prof: 'Dr Dilum Wewalaarachchi',
         type: 'Junior Seminar',
     },
     'UTC1123': {
