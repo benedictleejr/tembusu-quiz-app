@@ -1,13 +1,9 @@
 export const courseData = {
-    'UTC2112/UTS2112': {
-        name: 'Animals and the City',
-        prof: '',
-        type: 'Senior Seminar',
-    },
     'UTC2118': {
         name: 'The Anatomy of Crime',
         prof: 'Dr Serena Seah',
         type: 'Senior Seminar',
+        
     },
     'UTC2109/UTS2109': {
         name: 'Asia Now! The Archaeology of the Future City',
@@ -76,7 +72,7 @@ export const courseData = {
     },
     'UTC2101': {
         name: 'Time and Life',
-        prof: 'Dr Céline Coderey, Dr Eric Kerr',
+        prof: 'Dr Céline Coderey',
         type: 'Senior Seminar',
     },
     'UTC1119': {
@@ -111,7 +107,7 @@ export const courseData = {
     },
     'UTC1102D': {
         name: 'Images',
-        prof: 'Associate Professor John Phillips',
+        prof: 'Dr. Jeanine Lim',
         type: 'Junior Seminar',
     },
     'UTC1102S': {

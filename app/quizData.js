@@ -48,7 +48,7 @@ export const quiz = {
             'Historical' : ['UTC2101','UTC1102B'],
             'Non-fiction' : ['UTS2100/UTC2100','UTC2107','UTC1113'],
             'Fantasy' : ['UTS2105/UTC2105','UTC1102C','UTC1102P'], 
-            'Dystopian' : ['UTS2114/UTC2114', 'UTC2112/UTS2112', 'UTC1102S'], 
+            'Dystopian' : ['UTS2114/UTC2114', 'UTC1102S'], 
         }
       },
       {
@@ -59,7 +59,7 @@ export const quiz = {
             'Poverty alleviation' : ['UTC2111','UTC1102E','UTC1120'],
             'Education disparities' : ['UTC2116/UTS2116','UTC1102G'],
             'Racial justice' : ['UTC2117','UTC1102D'],
-            'Environmental sustainability' : ['UTC2102','UTC2112/UTS2112'],
+            'Environmental sustainability' : ['UTC2102'],
             'War and conflict' : ['UTC2107', 'UTC2118', 'UTC1123'],
         }
       },
