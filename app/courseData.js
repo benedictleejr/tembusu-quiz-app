@@ -107,7 +107,7 @@ export const courseData = {
     },
     'UTC1102D': {
         name: 'Images',
-        prof: 'Dr. Jeanine Lim',
+        prof: 'Dr Jeanine Lim',
         type: 'Junior Seminar',
     },
     'UTC1102S': {
