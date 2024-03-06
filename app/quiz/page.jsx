@@ -95,13 +95,15 @@ const page = () => {
                     ) : (
                     <div className='result-container'>
                         <h3 id="results-header">Results</h3>
-                        {Object.keys(result)
-                            .map(k => ([k, result[k]]))
-                            .sort((a, b) => b[1] - a[1])
-                            .slice(0, 5)
-                            .map((item) => (
-                        <CourseCard courseID={item[0]} />
-                        ))}
+                        <div className="course-card-row">
+                            {Object.keys(result)
+                                .map(k => ([k, result[k]]))
+                                .sort((a, b) => b[1] - a[1])
+                                .slice(0, 5)
+                                .map((item) => (
+                            <CourseCard courseID={item[0]} />
+                            ))}
+                        </div>
                         <Link href='/'>
                             <button>Restart</button>
                         </Link>

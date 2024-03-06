@@ -21,7 +21,7 @@ h1, h2 {
 
 h3 {
   padding-bottom: 2rem;
-  color: #000105;
+  color: #f8f8f8;
   font-size: 1.8rem;
 }
 
@@ -52,7 +52,9 @@ li {
   margin: 9px 0;
   padding: 16px 8px;
   color: #000105;
-  border: 1px solid lightgray;
+  background-color: #f8f8f8;
+  border-radius: 6px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .li-hover:hover {
@@ -62,7 +64,7 @@ li {
 
 .li-selected {
   color: #fff;
-  background-color: #000925;
+  background-color: #50875e;
 }
 
 .container-container {
@@ -81,7 +83,7 @@ li {
 }
 
 .quiz-container {
-  background-color: #f8f8f8;
+
   padding: 1rem;
   margin-top: 2rem;
   border-radius: 4px;
