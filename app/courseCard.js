@@ -5,15 +5,35 @@ import { courseData } from './courseData';
 import './courseCard.css';
 import styled from 'styled-components';
 
+const ClickButton = styled.button`
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+`;
+
 const PopupCard = styled.div`
-    width: 300px;
-    position: absolute;
+    width: 50vw;
+    position: fixed;
     left: 50%;
     top: 50%;
-    margin-left: -150px;
+    transform: translate(-50%, -50%);
     background-color: white;
-    padding: 40px;
-    transform: translateY(-50%);
+    padding: 20px;
+    font-size: 16px;
+`;
+
+const CourseInfo = styled.div`
+    padding: 10px 0 10px 0;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 12px;
 `;
 
 const Overlay = styled.div`
@@ -27,10 +47,12 @@ const Overlay = styled.div`
 `;
 
 // Define Popup component
-const CustomPopup = ({ onClose }) => (
+const CustomPopup = ({ onClose, course }) => (
     <Overlay>
         <PopupCard>
-            <div onClick={onClose}>Close</div>
+            <div>{course.name}</div>
+            <CourseInfo>{course.summary}</CourseInfo>
+            <ClickButton onClick={onClose}>Close</ClickButton>
         </PopupCard>
     </Overlay>
 );
@@ -47,7 +69,7 @@ export const CourseCard = ({courseID}) => {
             <div className="course-title">{courseID}: {course.name}</div>
             <div className="course-info">Taught by {course.prof}</div>
             <div className="course-type">{course.type}</div>
-            {isShownCourseInfo && <CustomPopup onClose={togglePopup} />}
+            {isShownCourseInfo && <CustomPopup onClose={togglePopup} course={course}/>}
         </div>
     );
 };  
