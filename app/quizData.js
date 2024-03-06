@@ -70,8 +70,8 @@ export const quiz = {
         mappedAnswer: {
             'Research essay' : ['UTC2108'],
             'Creative works/Exhibition': ['UTC2101','UTC2117'],
-            'Project that engages real stakeholders' : ['UTS2105/UTC2105','UTC2111'],
-            'Debate' : ['UTC2107','UTS2103/UTC2103'],
+            'Project that engages real stakeholders' : ['UTS2105/UTC2105'],
+            'Debate' : ['UTC2107'],
             'Individual reflection' : ['UTC2101','UTC2116/UTS2116'],
             'Field trip': ['UTC2109/UTS2109','UTS2114/UTC2114']
         }

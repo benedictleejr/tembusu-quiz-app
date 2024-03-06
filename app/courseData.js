@@ -127,7 +127,7 @@ export const courseData = {
     },
     'UTC1102D': {
         name: 'Images',
-        prof: 'Dr. Jeanine Lim',
+        prof: 'Dr Jeanine Lim',
         type: 'Junior Seminar',
         summary: 'In this junior seminar, students will explore the role of images in several key contexts, including painting, photography, science, mathematics, television, cinema and the internet. Students will develop habits of critical response by studying texts from philosophy, psychology, semiotics, and literature that deal directly with images and theories of the image. Students will learn to distinguish between kinds of image.and develop an understanding of the history of images, their influence on our lives and our interaction with them. Some attention will be given to special topics, such as the invention of the camera and the establishment of 19th century science.',
     },
