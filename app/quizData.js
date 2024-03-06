@@ -3,7 +3,7 @@ export const quiz = {
     questions: [
       {
         id: 1,
-        question: 'What are your fields of interest?',
+        question: 'What is your field of interest?',
         answers: ['Urban Planning', 'Technology', 'Strategy', 'Anthropology', 'Healthcare', 'Environment'],
         mappedAnswer: {
             'Urban Planning': ['UTS2105/UTC2105', 'UTC2109/UTS2109'],

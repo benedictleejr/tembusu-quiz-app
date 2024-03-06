@@ -1,0 +1,23 @@
+// import styled from 'styled-components';
+
+// const PopupCard = styled.div`
+//     width: 300px;
+//     position: absolute;
+//     left: 50%;
+//     top: 50%;
+//     margin-left: -150px;
+//     background-color: white;
+//     padding: 40px;
+//     transform: translateY(-50%);
+// `;
+
+// const Overlay = styled.div`
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     z-index: 999;
+//     width: 100vw;
+//     height: 100vh;
+//     background-color: black;
+//     background-color: rgba(0, 0, 0, 0.75);
+// `;
