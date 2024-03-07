@@ -34,6 +34,7 @@ export const courseData = {
         name: 'Happiness By Design',
         prof: 'Dr John Wee',
         type: 'Senior Seminar',
+        summary: 'This course partners with a social enterprise such as Happiness Initiative in Singapore, to contribute social research for developing ‘well-being skills’ in community programs. Students conduct literature reviews, design surveys, and analyze variables shaping the experience of well-being by local stakeholders — communities or workplaces in Singapore identified by the partner. To stimulate creative ideas for improving research design, students critically appraise modern and historical literature on ideal societies and human flourishing, and learn to apply theory to encourage positive behaviors through designed interventions. Through collecting feedback and responses, students test the effectiveness of their proposed design and translate their findings into policy recommendations.',
     },
     'UTS2100/UTC2100': {
         name: 'Intelligence and Singapore Society',
