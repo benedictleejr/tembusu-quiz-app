@@ -26,14 +26,16 @@ const PopupCard = styled.div`
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 20px;
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: 600;
 `;
 
 const CourseInfo = styled.div`
     padding: 10px 0 10px 0;
     text-align: justify;
     text-justify: inter-word;
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 400;
 `;
 
 const Overlay = styled.div`
@@ -51,7 +53,14 @@ const CustomPopup = ({ onClose, course }) => (
     <Overlay>
         <PopupCard>
             <div>{course.name}</div>
+            <div style={{textAlign: "left", marginTop: "20px", fontSize: "20px"}}>
+                <h5>Course Description:</h5>
+            </div>
             <CourseInfo>{course.summary}</CourseInfo>
+            <div style={{textAlign: "left", marginTop: "20px", fontSize: "20px"}}>
+                <h5>Course Assignment:</h5>
+            </div>
+            <CourseInfo>{course.assignment}</CourseInfo>
             <ClickButton onClick={onClose}>Close</ClickButton>
         </PopupCard>
     </Overlay>
@@ -65,11 +74,16 @@ export const CourseCard = ({courseID}) => {
     };
 
     return (
-        <div className="course-card" onClick={togglePopup}>
+        <div className="course-card">
+        <div className="course-details" onClick={togglePopup}>
             <div className="course-title">{courseID}: {course.name}</div>
             <div className="course-info">Taught by {course.prof}</div>
             <div className="course-type">{course.type}</div>
             {isShownCourseInfo && <CustomPopup onClose={togglePopup} course={course}/>}
+        </div>
+        <div className='icon-container' onClick={togglePopup}>
+            <img src="/fullscreen.png" width="20px"></img>
+        </div>
         </div>
     );
 };  

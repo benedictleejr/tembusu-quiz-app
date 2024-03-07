@@ -9,10 +9,12 @@ export default function Home() {
         <div>
             <img src='/coursebanner3.png' alt='Tembusu Courses' width='100%'/>
         </div>
-        <h1>Find the perfect courses for you!</h1>
+        <h1>Find courses that you want to read!</h1>
         <Link href='/quiz'>
           <button>Start Quiz</button>
         </Link>
+        <div className="disclaimer disclaimer-bold">Disclaimer</div>
+        <div className="disclaimer">This quiz poses short questions that help align courses with your interests. The final courses returned may not be absolutely perfect fit for you. But they should connect with at least some of your interests.</div>
       </div>
     </main>
   );

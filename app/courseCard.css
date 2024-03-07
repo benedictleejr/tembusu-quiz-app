@@ -19,3 +19,12 @@
     font-size: 16px;
     color: gray;
 }
+
+.course-details {
+    text-align: center;
+}
+
+.icon-container {
+    text-align: right;
+    margin-top: -15px;
+}
