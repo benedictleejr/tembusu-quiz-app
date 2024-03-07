@@ -20,6 +20,7 @@ const ClickButton = styled.button`
 
 const PopupCard = styled.div`
     width: 50vw;
+    min-width: 320px;
     position: fixed;
     left: 50%;
     top: 50%;
@@ -28,7 +29,7 @@ const PopupCard = styled.div`
     padding: 20px;
     font-size: 24px;
     font-weight: 600;
-    max-height: 80vh;
+    max-height: 85vh;
     overflow: scroll;
     border-radius: 10px;
 `;

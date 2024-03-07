@@ -105,7 +105,7 @@ export const courseData = {
         summary: 'Working from the position that skin belongs as much to the person as to the society in which they live, this seminar reflects on how much our identity and our sense of self is produced by the interaction between biological, cultural, political, and economic, forces that play out through and on the skin. Thus, skin is a playground — at the very same time that it is a battle field — where identity is constantly reshaped through interaction of words, categories, values, body techniques and emotions.',
         assignment: 'Ethnographic project, student-led segment',
         interesting: 'Study touch, colorism, tattoos, skin conditions',
-        image: 'UTC2117.jpg',
+        image: 'utc2117.png',
     },
     'UTS2114/UTC2114': {
         name: 'Technologies and Ageing in Singapore',
