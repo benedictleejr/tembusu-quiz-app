@@ -13,8 +13,8 @@ export default function Home() {
         <Link href='/quiz'>
           <button>Start Quiz</button>
         </Link>
-        <div className="disclaimer disclaimer-bold">Disclaimer</div>
-        <div className="disclaimer">This quiz poses short questions that help align courses with your interests. The final courses returned may not be absolutely perfect fit for you. But they should connect with at least some of your interests.</div>
+        <div className="disclaimer disclaimer-bold" style={{textAlign: 'center', paddingBottom: '5px'}}>Disclaimer</div>
+        <div className="disclaimer" style={{textAlign: 'justify', padding: '0 50px 0 50px'}}>This quiz poses short questions that help align courses with your interests. The final courses returned may not be an absolutely perfect fit for you but they should connect with at least some of your interests.</div>
       </div>
     </main>
   );

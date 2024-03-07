@@ -57,10 +57,16 @@ const CustomPopup = ({ onClose, course }) => (
                 <h5>Course Description:</h5>
             </div>
             <CourseInfo>{course.summary}</CourseInfo>
+
             <div style={{textAlign: "left", marginTop: "20px", fontSize: "20px"}}>
-                <h5>Course Assignment:</h5>
+                <h5>Past Assignments:</h5>
             </div>
             <CourseInfo>{course.assignment}</CourseInfo>
+
+            <div style={{textAlign: "left", marginTop: "20px", fontSize: "20px"}}>
+                <h5>Interesting Aspect:</h5>
+            </div>
+            <CourseInfo>{course.interesting}</CourseInfo>
             <ClickButton onClick={onClose}>Close</ClickButton>
         </PopupCard>
     </Overlay>
