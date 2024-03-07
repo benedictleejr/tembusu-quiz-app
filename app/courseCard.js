@@ -52,21 +52,22 @@ const Overlay = styled.div`
 const CustomPopup = ({ onClose, course }) => (
     <Overlay>
         <PopupCard>
+            {course.image && <img src={`/${course.image}`} width="100%" alt="Course Image" />}
             <div>{course.name}</div>
             <div style={{textAlign: "left", marginTop: "20px", fontSize: "20px"}}>
                 <h5>Course Description:</h5>
             </div>
             <CourseInfo>{course.summary}</CourseInfo>
 
-            <div style={{textAlign: "left", marginTop: "20px", fontSize: "20px"}}>
+            {course.assignment && <div style={{textAlign: "left", marginTop: "20px", fontSize: "20px"}}>
                 <h5>Past Assignments:</h5>
-            </div>
-            <CourseInfo>{course.assignment}</CourseInfo>
+            </div>}
+            {course.assignment && <CourseInfo>{course.assignment}</CourseInfo>}
 
-            <div style={{textAlign: "left", marginTop: "20px", fontSize: "20px"}}>
+            {course.interesting && <div style={{textAlign: "left", marginTop: "20px", fontSize: "20px"}}>
                 <h5>Interesting Aspect:</h5>
-            </div>
-            <CourseInfo>{course.interesting}</CourseInfo>
+            </div>}
+            {course.interesting && <CourseInfo>{course.interesting}</CourseInfo>}
             <ClickButton onClick={onClose}>Close</ClickButton>
         </PopupCard>
     </Overlay>
