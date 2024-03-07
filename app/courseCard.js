@@ -28,6 +28,9 @@ const PopupCard = styled.div`
     padding: 20px;
     font-size: 24px;
     font-weight: 600;
+    max-height: 80vh;
+    overflow: scroll;
+    border-radius: 10px;
 `;
 
 const CourseInfo = styled.div`
@@ -52,7 +55,7 @@ const Overlay = styled.div`
 const CustomPopup = ({ onClose, course }) => (
     <Overlay>
         <PopupCard>
-            {course.image && <img src={`/${course.image}`} width="100%" alt="Course Image" />}
+            {course.image && <img src={`/${course.image}`} width="60%" alt="Course Image" />}
             <div>{course.name}</div>
             <div style={{textAlign: "left", marginTop: "20px", fontSize: "20px"}}>
                 <h5>Course Description:</h5>
