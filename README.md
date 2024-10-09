@@ -1,4 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tembusu College Quiz App
+
+## Overview
+
+The  Quiz App is a web application designed for students at the National University of Singapore to discover and explore modules at Tembusu College that align with their interests. Through a fun and interactive quiz format, users can receive personalized module recommendations based on their preferences.
+
+## Live Demo
+
+You can access the live application [here](https://tembusu-quiz-app.vercel.app/).
+
+## Features
+
+- User-Friendly Interface: Simple and intuitive UI for easy navigation.
+- Interactive Quiz: Engaging quiz format to assess students' interests.
+- Personalized Recommendations: Tailored module suggestions based on quiz responses.
+- Responsive Design: Optimized for both desktop and mobile devices.
+Next.js Framework: Built using Next.js for server-side rendering and improved performance.
+
+## Technologies Used
+
+Frontend: Next.js
+Styling: Bootstrap
+Deployment: Vercel 
 
 ## Getting Started
 
