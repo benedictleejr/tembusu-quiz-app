@@ -1,29 +1,15 @@
 Sum mentioned,Q1,Q2,Q3,Q4,Q5,Q6,course,name,prof,type
+3,1,1,1,,,,UTS2110/UTC2110,Happiness By Design,"Dr John Wee, Dr Priscilla Koh",Senior Seminar
+3,,,,1,1,1,UTC2107,Negotiating in a Complex World,"Dr Kuan Yee Han, Dr Michael Grainger",Senior Seminar
+4,1,1,1,,1,,UTC2111,Picturing and Seeing Development,Mr Shamraz Anver,Senior Seminar
+4,1,1,,1,,1,UTS2105,"Singapore as ""Model"" City?","Dr Connor Graham, Dr Margaret Tan",Senior Seminar
+3,1,,,,1,1,UTC2117,Skin,Dr Cï¿½line Coderey,Senior Seminar
+2,,,,,1,1,UTS2116,The University Today,Dr Connor Graham,Senior Seminar
+1,,,,1,,,UTC1119,Crime and Punishment,Dr Michael Grainger,Junior Seminar
+1,,,,1,,,UTC1115,Engineering Marvels,Dr Ernest Tan,Junior Seminar
 1,,,,1,,,UTC1102B,The Darwinian Revolution,Dr John van Wyhe,Junior Seminar
 1,,,,1,,,UTC1102C,Fakes,Dr Eric Kerr,Junior Seminar
-1,,,,,1,,UTC1102D,Images,Associate Professor John Phillips,Junior Seminar
-1,,,,,1,,UTC1102E,Social Innovation,Dr Dilum Wewalaarachchi,Junior Seminar
-1,,,,,1,,UTC1102G,Proof: What's truth got to do with it?,Professor Tay Yong Chiang,Junior Seminar
-1,,,,1,,,UTC1102P,Murals: Expressions from/on the Walls,Dr Margaret Tan,Junior Seminar
-1,,,,1,,,UTC1102S,Living and Dying in the Internet Age,Dr Connor Graham,Junior Seminar
-1,,,,1,,,UTC1113,Ignorance and Uncertainty,Dr John Wee,Junior Seminar
-1,,,,1,,,UTC1115,Engineering Marvels,Dr Ernest Tan,Junior Seminar
-1,,,,1,,,UTC1119,Crime and Punishment,Dr Michael Grainger,Junior Seminar
-1,,,,,1,,UTC1120,Emotions and Society,Mr Shamraz Anver,Junior Seminar
-1,,,,,1,,UTC1123,The Nuclear Imagination,Dr Rafi Rashid,Junior Seminar
-3,,,1,1,,1,UTC2101,Time and Life,"Dr Céline Coderey, Dr Eric Kerr",Senior Seminar
-3,1,,1,,1,,UTC2102,Climate Change,Dr Connor Graham,Senior Seminar
-3,,,,1,1,1,UTC2107,Negotiating in a Complex World,"Dr Michael Grainger, Dr Kuan Yee Han",Senior Seminar
-2,,,,1,,1,UTC2108,Knowledge and Expertise,"Dr Connor Graham, Dr Eric Kerr",Senior Seminar
-2,1,,,,,1,UTC2109/UTS2109,Asia Now! The Archaeology of the Future City,Dr Margaret Tan,Senior Seminar
-4,1,1,1,,1,,UTC2111,Picturing and Seeing Development,Mr Shamraz Anver,Senior Seminar
-2,,,,1,1,,UTC2112/UTS2112,Animals and the City,,Senior Seminar
-3,1,1,1,,,,UTC2113,Gaming Life,Ms Cera Tan,Senior Seminar
-2,,,,,1,1,UTC2116/UTS2116,The University Today,Dr Gene Navera,Senior Seminar
-3,1,,,,1,1,UTC2117,Skin,Dr Celine Coderey,Senior Seminar
-3,,,1,1,1,,UTC2118,The Anatomy of Crime,Dr Serena Seah,Senior Seminar
-4,1,1,1,1,,,UTS2100/UTC2100,Intelligence and Singapore Society,"Dr Connor Graham, Mr Shamraz Anver",Senior Seminar
-4,2,,1,1,,,UTS2103/UTC2103,Biomedicine and Singapore Society,Dr Serena Seah,Senior Seminar
-4,1,1,,1,,1,UTS2105/UTC2105,"Singapore as ""Model"" City?",Dr Margaret Tan,Senior Seminar
-3,1,1,1,,,,UTS2110/UTC2110,Happiness By Design,Dr John Wee,Senior Seminar
-3,1,1,,1,,,UTS2114/UTC2114,Technologies and Ageing in Singapore,Dr Kuan Yee Han,Senior Seminar
+1,,,,1,,,UTC1113,Ignorance and Knowing,Dr John Wee,Junior Seminar
+1,,,,,1,,UTC1102G,Proof: What's Truth got to do with it?,Professor Tay Yong Chiang,Junior Seminar
+4,2,,1,1,,,UTS2103,Health and the Community in Singapore,Dr Rafi Rashid,Senior Seminar
+4,1,1,1,1,,,UTS2104,Intelligence and Singapore Society,"Mr Shamraz Anver, Ms Samridhi Aggarwal",Senior Seminar
