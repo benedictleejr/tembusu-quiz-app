@@ -6,7 +6,7 @@ The  Quiz App is a web application designed for students at the National Univers
 
 ## Live Demo
 
-You can access the live application [here](https://tembusu-quiz-app.vercel.app/).
+You can access the live application [here](https://tembusu-quiz-app-oh-2025.vercel.app/).
 
 ## Features
 

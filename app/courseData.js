@@ -28,12 +28,12 @@ export const courseData = {
     },
     'UTS2104': {
         name: 'Intelligence and Singapore Society',
-        prof: 'Mr Shamraz Anver, Ms Samridhi Aggarwal',
+        prof: 'Mr Shamraz Anver',
         type: 'Senior Seminar',
         summary: 'This course invites students to probe the concept of ‘intelligence’ in relation to Singapore’s ongoing development as a nation. The idea that smart minds are essential for survival has shaped domestic policies and international positioning strategies. We ask: in what ways has human intelligence been defined, measured and harnessed? What counts as intelligence, and what does not? Beyond notions of intelligence centred on the human individual, we will also consider forms of collective and artificial intelligence, mediated by science and technology. What kinds of intelligence are needed for the future and how can Singapore develop them?',
         assignment: 'The assignments are diverse in line with the idea of multiple intelligences, ranging from traditional essay writing to conducting a quantitative and qualitative research project based on an intelligence test to oral presentations of public policy.',
         interesting: 'Talks with speakers in the medical and health sciences community',
-        image: 'UTS2103.jpg',
+        image: 'UTC2104UTS2104.png',
     },
     // 'UTC2102': {
     //     name: 'Climate Change',
@@ -91,7 +91,7 @@ export const courseData = {
     },
     'UTC2111': {
         name: 'Picturing and Seeing Development',
-        prof: 'Mr Shamraz Anver',
+        prof: 'Dr Priscilla Koh',
         type: 'Senior Seminar',
         summary: 'This course considers how development is pictured, visualised and textualised through a focus on rural communities overseas for eg. in Cambodia in aspects such as education, economy, public health, and the environment. The course explores the intersection and interplay between organisations, bureaucracies and communities. Development is ‘seen’ through the perspectives of performance, experience, equality, and practice via first-hand engagement. Primary research on sustainable development enhances students developing a critical perspective on how development is imagined, performed and carried out in village communities in conjunction with partner NGOs that run participatory development projects. Visual engagement facilitates sharing these findings with the community through film.',
         assignment: 'Analysis of the development scenario in Cambodia, mini documentary, reflection',
@@ -100,7 +100,7 @@ export const courseData = {
     },
     'UTS2105': {
         name: 'Singapore as "Model" City?',
-        prof: 'Dr Connor Graham, Dr Margaret Tan',
+        prof: 'Dr Connor Graham',
         type: 'Senior Seminar',
         summary: 'A ‘global city’, a ‘city in a garden’, a ‘city of 6.9 million’… what do these and other models say about Singapore and its relationship to its past and future? This course facilitates critical and multi‐disciplinary engagement with the imagination and organization of Singapore as city. Students will examine visible aspects of the urban environment together with what is (treated as) invisible, and explore what is at stake in meeting Singapore’s ambition within its borders and beyond. The course culminates in a project that allows students to situate ideals of the liveable, sustainable, inclusive (etc.) city in particular urban sites.',
         assignment: 'Writing assignments, group intervention project',

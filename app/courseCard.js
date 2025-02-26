@@ -69,7 +69,7 @@ const CustomPopup = ({ onClose, course }) => (
             {course.assignment && <CourseInfo>{course.assignment}</CourseInfo>}
 
             {course.interesting && <div style={{textAlign: "left", marginTop: "20px", fontSize: "20px"}}>
-                <h5>Interesting Aspect:</h5>
+                <h5>Look Forward To:</h5>
             </div>}
             {course.interesting && <CourseInfo>{course.interesting}</CourseInfo>}
             <ClickButton onClick={onClose}>Close</ClickButton>
